@@ -3,7 +3,7 @@ import zlib
 import base64
 
 HOST = '0.0.0.0'
-PORT = 9999
+PORT = 1111
 
 def handle_client(conn):
     # Terima mode (encode/decode)

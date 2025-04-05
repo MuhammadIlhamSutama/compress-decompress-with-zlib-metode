@@ -23,7 +23,7 @@ def send_file(mode, filepath):
         if mode == 'encode':
             outname = filepath + '.b64'
         elif mode == 'decode':
-            outname = filepath.replace('.b64', '') or 'decoded_output'
+            outname = filepath.replace('.b64', '.encoded') or 'decoded_output' + '.decoded'
         else:
             outname = 'output.data'
 
